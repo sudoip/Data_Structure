@@ -1,0 +1,20 @@
+Arrays in Java are objects, like all other objects in Java, arrays implicitly inherit from the java.lang.Object class. This allows you to invoke methods defined in Object (such as toString(), equals() and hashCode()).
+Arrays have a built-in length property, which provides the number of elements in the array
+
+Example:
+
+public class HFT {
+    public static void main(String[] args)
+    {
+
+        // initializing array
+        int[] arr = {40, 55, 63, 17, 22};
+
+        // size of array
+        int n = arr.length;
+
+        // traversing array
+        for (int i = 0; i < n; i++)
+            System.out.print(arr[i] + " ");
+    }
+}
